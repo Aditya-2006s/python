@@ -1,7 +1,5 @@
-# Input month number from the user
 month = int(input("Enter the month number (1–12): "))
 
-# Determine the season based on the month number
 if month == 12 or month == 1 or month == 2:
     season = "Winter"
 elif month == 3 or month == 4 or month == 5:
@@ -13,5 +11,4 @@ elif month == 9 or month == 10 or month == 11:
 else:
     season = "Invalid month number"
 
-# Output the season
 print(f"The season is: {season}")
