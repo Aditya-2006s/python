@@ -1,7 +1,5 @@
-# Input number from the user
 number = float(input("Enter a number: "))
 
-# Check if the number is between 1 and 100
 if 1 <= number <= 100:
     print("The number is between 1 and 100.")
 else:
